@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Contact Poojitha Medisphere and book an appointment with our specialist physicians and surgeons. 24/7 emergency helpline and hospital directions.">
+    <title>Contact & Book Appointment | Poojitha Medisphere</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Top Emergency Bar -->
+    <div class="top-bar">
+        <div class="top-bar-left">
+            <span><span class="pulse-dot"></span> Online Booking & 24/7 Emergency Services Active</span>
+            <span>📍 Main Road, Andhra Pradesh, India</span>
+        </div>
+        <div class="top-bar-right">
+            <span>Helpline: <a href="tel:+919876543210">+91 98765 43210</a></span>
+        </div>
+    </div>
+
+    <!-- Navigation -->
+    <header>
+        <div class="logo">
+            <div class="cross-icon">✚</div>
+            POOJITHA <b>MEDISPHERE</b>
+        </div>
+
+        <button class="mobile-menu-btn" id="mobileMenuBtn" aria-label="Toggle navigation">
+            ☰
+        </button>
+
+        <nav id="mainNav">
+            <a href="index.html">Home</a>
+            <a href="doctor.html">Doctor</a>
+            <a href="doctors.html">Our Doctors</a>
+            <a href="services.html">Services</a>
+            <a href="facilities.html">Facilities</a>
+            <a href="contact.html" class="active">Contact</a>
+            <a href="contact.html" class="nav-cta">Book Appointment</a>
+        </nav>
+    </header>
+
+    <!-- Page Banner -->
+    <section class="page-banner">
+        <div class="badge-pill">
+            <span>📍</span> We Are Here To Help You
+        </div>
+        <h1>Get in Touch & Book Appointment</h1>
+        <p>
+            Schedule a consultation with our experienced doctors or reach out for clinical enquiries and emergency support.
+        </p>
+    </section>
+
+    <!-- Contact & Booking Section -->
+    <section class="contact-section">
+
+        <!-- Left: Contact Information -->
+        <div class="contact-info">
+            <h2>Contact Details</h2>
+            <p style="color: var(--text-muted);">
+                Feel free to reach out to our front desk team for appointments, test enquiries, or hospital guidance.
+            </p>
+
+            <!-- Emergency Callout Box -->
+            <div class="emergency-callout">
+                <h4>🚨 24/7 Emergency & Casualty Helpline</h4>
+                <p>For immediate medical assistance, trauma care, or urgent ambulance dispatch:</p>
+                <a href="tel:+919876543210" class="tel-btn">📞 +91 98765 43210</a>
+            </div>
+
+            <!-- Address Card -->
+            <div class="contact-card-item">
+                <div class="c-icon">📍</div>
+                <div>
+                    <h4>Hospital Location</h4>
+                    <p>Poojitha Medisphere, Main Road, City Center, Andhra Pradesh, India</p>
+                </div>
+            </div>
+
+            <!-- Phone Card -->
+            <div class="contact-card-item">
+                <div class="c-icon">📞</div>
+                <div>
+                    <h4>Phone / Consultation</h4>
+                    <p>+91 98765 43210 / +91 98765 43211</p>
+                </div>
+            </div>
+
+            <!-- Email Card -->
+            <div class="contact-card-item">
+                <div class="c-icon">✉️</div>
+                <div>
+                    <h4>Email Support</h4>
+                    <p>info@poojithamedisphere.com<br>appointments@poojithamedisphere.com</p>
+                </div>
+            </div>
+
+            <!-- Working Hours Card -->
+            <div class="contact-card-item">
+                <div class="c-icon">🕐</div>
+                <div>
+                    <h4>OPD & Consultation Hours</h4>
+                    <p>Monday - Saturday: 8:00 AM - 9:00 PM<br>Sunday: Emergency & On-Call Only</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Right: Appointment Booking Form -->
+        <div class="appointment-form">
+            <h2>Book an Appointment</h2>
+            <p style="color: var(--text-muted); margin-bottom: 20px; font-size: 14.5px;">
+                Fill out the form below and our medical reception will confirm your slot within 15 minutes.
+            </p>
+
+            <form id="appointmentForm">
+                <div class="form-grid">
+                    <div class="form-group">
+                        <label for="name">Patient Full Name *</label>
+                        <input type="text" id="name" placeholder="Enter full name" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="phone">Phone Number *</label>
+                        <input type="tel" id="phone" placeholder="Enter 10-digit mobile number" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email">Email Address</label>
+                        <input type="email" id="email" placeholder="Enter your email">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="department">Select Department *</label>
+                        <select id="department" required>
+                            <option value="">-- Choose Department --</option>
+                            <option value="General Medicine">General Medicine</option>
+                            <option value="Cardiology">Cardiology</option>
+                            <option value="Pediatrics">Pediatrics</option>
+                            <option value="Orthopedics">Orthopedics</option>
+                            <option value="Dermatology">Dermatology</option>
+                            <option value="Diagnostic Lab">Diagnostic Lab & Health Check</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="doctor">Preferred Doctor (Optional)</label>
+                        <select id="doctor">
+                            <option value="">Any Available Specialist</option>
+                            <option value="Dr. Poojitha">Dr. Poojitha (Chief Medical Officer)</option>
+                            <option value="Dr. Saritha">Dr. Saritha (Cardiologist)</option>
+                            <option value="Dr. Shahida">Dr. Shahida (Pediatrician)</option>
+                            <option value="Dr. Niharika">Dr. Niharika (MBBS / General Physician)</option>
+                            <option value="Dr. Sindhuja">Dr. Sindhuja (General Physician)</option>
+                            <option value="Dr. Naga Bhushanam">Dr. Naga Bhushanam (Dermatologist)</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="date">Preferred Date *</label>
+                        <input type="date" id="date" required>
+                    </div>
+
+                    <div class="form-group full-width">
+                        <label for="timeslot">Preferred Time Slot *</label>
+                        <select id="timeslot" required>
+                            <option value="Morning">Morning Slot (09:00 AM - 01:00 PM)</option>
+                            <option value="Afternoon">Afternoon Slot (02:00 PM - 05:00 PM)</option>
+                            <option value="Evening">Evening Slot (05:00 PM - 08:30 PM)</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group full-width">
+                        <label for="message">Symptoms or Health Concern</label>
+                        <textarea id="message" rows="3" placeholder="Briefly describe your symptoms or reason for visit..."></textarea>
+                    </div>
+                </div>
+
+                <button type="submit" class="btn" style="width: 100%; margin-top: 10px;">
+                    <span>📅</span> Confirm & Request Appointment
+                </button>
+            </form>
+        </div>
+
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-grid">
+            <div class="footer-brand">
+                <div class="logo">
+                    <div class="cross-icon">✚</div>
+                    POOJITHA <b>MEDISPHERE</b>
+                </div>
+                <p>
+                    Dedicated to providing patient-centered, high-quality medical care with empathy, advanced clinical equipment, and experienced healthcare professionals.
+                </p>
+            </div>
+
+            <div class="footer-col">
+                <h3>Quick Links</h3>
+                <ul class="footer-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="doctor.html">Doctor Profile</a></li>
+                    <li><a href="doctors.html">Our Doctors</a></li>
+                    <li><a href="services.html">Medical Services</a></li>
+                    <li><a href="facilities.html">Hospital Facilities</a></li>
+                    <li><a href="contact.html">Book Appointment</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-col">
+                <h3>Departments</h3>
+                <ul class="footer-links">
+                    <li><a href="services.html">Cardiology</a></li>
+                    <li><a href="services.html">Pediatrics</a></li>
+                    <li><a href="services.html">Orthopedics</a></li>
+                    <li><a href="services.html">General Medicine</a></li>
+                    <li><a href="services.html">Diagnostic Lab</a></li>
+                    <li><a href="services.html">Dermatology</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-col">
+                <h3>Contact & Hours</h3>
+                <div class="footer-contact-info">
+                    <p>📍 Poojitha Medisphere, Main Road, Andhra Pradesh, India</p>
+                    <p>📞 +91 98765 43210</p>
+                    <p>✉️ info@poojithamedisphere.com</p>
+                    <p>🕐 Mon - Sat: 8:00 AM - 9:00 PM</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <p>© 2026 Poojitha Medisphere. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Floating Action Button -->
+    <a href="https://wa.me/919876543210" target="_blank" rel="noopener noreferrer" class="floating-action-btn" title="Chat on WhatsApp" aria-label="WhatsApp Contact">
+        💬
+    </a>
+
+    <!-- Toast Notification Container -->
+    <div id="toast" class="toast-msg">
+        <span>✅</span>
+        <span id="toastText">Appointment request received!</span>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>

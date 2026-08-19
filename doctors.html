@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Meet our expert medical team at Poojitha Medisphere. Board-certified doctors specializing in cardiology, pediatrics, orthopedics, dermatology, and general medicine.">
+    <title>Our Doctors | Poojitha Medisphere</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Top Emergency Bar -->
+    <div class="top-bar">
+        <div class="top-bar-left">
+            <span><span class="pulse-dot"></span> 24/7 Emergency & Consultation Services</span>
+            <span>📍 Main Road, Andhra Pradesh, India</span>
+        </div>
+        <div class="top-bar-right">
+            <span>Helpline: <a href="tel:+919876543210">+91 98765 43210</a></span>
+        </div>
+    </div>
+
+    <!-- Navigation Bar -->
+    <header>
+        <div class="logo">
+            <div class="cross-icon">✚</div>
+            POOJITHA <b>MEDISPHERE</b>
+        </div>
+
+        <button class="mobile-menu-btn" id="mobileMenuBtn" aria-label="Toggle navigation">
+            ☰
+        </button>
+
+        <nav id="mainNav">
+            <a href="index.html">Home</a>
+            <a href="doctor.html">Doctor</a>
+            <a href="doctors.html" class="active">Our Doctors</a>
+            <a href="services.html">Services</a>
+            <a href="facilities.html">Facilities</a>
+            <a href="contact.html">Contact</a>
+            <a href="contact.html" class="nav-cta">Book Appointment</a>
+        </nav>
+    </header>
+
+    <!-- Page Banner -->
+    <section class="page-banner">
+        <div class="badge-pill">
+            <span>👨‍⚕️</span> Dedicated Medical Faculty
+        </div>
+        <h1>Meet Our Expert Doctors</h1>
+        <p>
+            Our board-certified specialists bring decades of clinical excellence, compassionate care, and personalized attention to every patient.
+        </p>
+    </section>
+
+    <!-- Filter Buttons -->
+    <div class="doctors-filter-section">
+        <button class="filter-btn active" data-filter="all">All Specialties</button>
+        <button class="filter-btn" data-filter="general">General Medicine</button>
+        <button class="filter-btn" data-filter="cardiology">Cardiology</button>
+        <button class="filter-btn" data-filter="pediatrics">Pediatrics</button>
+        <button class="filter-btn" data-filter="orthopedics">Orthopedics</button>
+        <button class="filter-btn" data-filter="dermatology">Dermatology</button>
+    </div>
+
+    <!-- Doctors Grid -->
+    <section class="doctors-section">
+
+        <!-- Doctor 1: Dr. Poojitha -->
+        <div class="doctor-card" data-category="general">
+            <div class="doctor-card-image">
+                <img src="css/js/images/doctor.jpeg" alt="Dr. Poojitha - Chief Medical Officer">
+                <div class="doctor-tag">Chief Medical Officer</div>
+            </div>
+            <div class="doctor-card-content">
+                <h2>Dr. Poojitha</h2>
+                <p class="specialization">Internal Medicine & Wellness</p>
+                <p class="degree">MBBS, MD (General Medicine) • 12+ Yrs Exp</p>
+                <p class="desc">
+                    Specialized in preventive healthcare, comprehensive health evaluations, lifestyle disorders, and personalized patient wellness programs.
+                </p>
+                <a href="contact.html?dept=General%20Medicine" class="doctor-btn">
+                    <span>Book Appointment</span>
+                    <span class="btn-arrow">➔</span>
+                </a>
+            </div>
+        </div>
+
+        <!-- Doctor 2: Dr. Saritha -->
+        <div class="doctor-card" data-category="cardiology">
+            <div class="doctor-card-image">
+                <img src="css/js/images/doctors1.jpeg" alt="Dr. Saritha - Senior Cardiologist">
+                <div class="doctor-tag">Cardiology Specialist</div>
+            </div>
+            <div class="doctor-card-content">
+                <h2>Dr. Saritha</h2>
+                <p class="specialization">Consultant Cardiologist</p>
+                <p class="degree">MBBS, MD, DM (Cardiology) • 10+ Yrs Exp</p>
+                <p class="desc">
+                    Expert in clinical cardiology, hypertension management, preventive heart screening, echocardiography, and cardiovascular care.
+                </p>
+                <a href="contact.html?dept=Cardiology" class="doctor-btn">
+                    <span>Book Appointment</span>
+                    <span class="btn-arrow">➔</span>
+                </a>
+            </div>
+        </div>
+
+        <!-- Doctor 3: Dr. Shahida -->
+        <div class="doctor-card" data-category="pediatrics">
+            <div class="doctor-card-image">
+                <img src="css/js/images/doctors2.jpeg" alt="Dr. Shahida - Pediatrician">
+                <div class="doctor-tag">Pediatric Specialist</div>
+            </div>
+            <div class="doctor-card-content">
+                <h2>Dr. Shahida</h2>
+                <p class="specialization">Senior Pediatrician</p>
+                <p class="degree">MBBS, MD (Pediatrics), DCH • 8+ Yrs Exp</p>
+                <p class="desc">
+                    Gentle, comprehensive healthcare for infants, toddlers, and adolescents including newborn checkups, immunizations, and developmental care.
+                </p>
+                <a href="contact.html?dept=Pediatrics" class="doctor-btn">
+                    <span>Book Appointment</span>
+                    <span class="btn-arrow">➔</span>
+                </a>
+            </div>
+        </div>
+
+        <!-- Doctor 4: Dr. Niharika -->
+        <div class="doctor-card" data-category="general">
+            <div class="doctor-card-image">
+                <img src="css/js/images/dr_niharika.jpg" alt="Dr. Niharika - MBBS | Consultant Physician">
+                <div class="doctor-tag">General Physician</div>
+            </div>
+            <div class="doctor-card-content">
+                <h2>Dr. Niharika</h2>
+                <p class="specialization">Consultant Physician & Clinical Care</p>
+                <p class="degree">MBBS • Primary & Preventive Medicine • 8+ Yrs Exp</p>
+                <p class="desc">
+                    Specialized in comprehensive primary healthcare, preventive checkups, acute infection management, lifestyle disorders, and personalized wellness consultations.
+                </p>
+                <a href="contact.html?dept=General%20Medicine" class="doctor-btn">
+                    <span>Book Appointment</span>
+                    <span class="btn-arrow">➔</span>
+                </a>
+            </div>
+        </div>
+
+        <!-- Doctor 5: Dr. Sindhuja -->
+        <div class="doctor-card" data-category="general">
+            <div class="doctor-card-image">
+                <img src="css/js/images/doctors4.png" alt="Dr. Sindhuja - General Physician">
+                <div class="doctor-tag">General Physician</div>
+            </div>
+            <div class="doctor-card-content">
+                <h2>Dr. Sindhuja</h2>
+                <p class="specialization">Consultant Physician</p>
+                <p class="degree">MBBS, MD (General Medicine) • 7+ Yrs Exp</p>
+                <p class="desc">
+                    Provides comprehensive consultations for chronic conditions, acute infections, diabetic care, thyroid disorders, and routine medical checkups.
+                </p>
+                <a href="contact.html?dept=General%20Medicine" class="doctor-btn">
+                    <span>Book Appointment</span>
+                    <span class="btn-arrow">➔</span>
+                </a>
+            </div>
+        </div>
+
+        <!-- Doctor 6: Dr. Naga Bhushanam -->
+        <div class="doctor-card" data-category="dermatology">
+            <div class="doctor-card-image">
+                <img src="css/js/images/doctors5.jpeg" alt="Dr. Naga Bhushanam - Dermatologist">
+                <div class="doctor-tag">Dermatology Specialist</div>
+            </div>
+            <div class="doctor-card-content">
+                <h2>Dr. Naga Bhushanam</h2>
+                <p class="specialization">Consultant Dermatologist</p>
+                <p class="degree">MBBS, MD (DVL / Dermatology) • 9+ Yrs Exp</p>
+                <p class="desc">
+                    Specialized in clinical dermatology, skin allergy diagnosis, acne treatments, hair & scalp restoration, and modern aesthetic skincare.
+                </p>
+                <a href="contact.html?dept=Dermatology" class="doctor-btn">
+                    <span>Book Appointment</span>
+                    <span class="btn-arrow">➔</span>
+                </a>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- Why Choose Our Doctors -->
+    <section class="doctor-message">
+        <p class="section-title">OUR CLINICAL COMMITMENT</p>
+        <h2>Experienced Hands. Caring Hearts.</h2>
+        <p>
+            At Poojitha Medisphere, our doctors work collaboratively to ensure every patient receives accurate diagnoses, evidence-based treatments, and thoughtful post-consultation support.
+        </p>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-grid">
+            <div class="footer-brand">
+                <div class="logo">
+                    <div class="cross-icon">✚</div>
+                    POOJITHA <b>MEDISPHERE</b>
+                </div>
+                <p>
+                    Dedicated to providing patient-centered, high-quality medical care with empathy, advanced clinical equipment, and experienced healthcare professionals.
+                </p>
+            </div>
+
+            <div class="footer-col">
+                <h3>Quick Links</h3>
+                <ul class="footer-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="doctor.html">Doctor Profile</a></li>
+                    <li><a href="doctors.html">Our Doctors</a></li>
+                    <li><a href="services.html">Medical Services</a></li>
+                    <li><a href="facilities.html">Hospital Facilities</a></li>
+                    <li><a href="contact.html">Book Appointment</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-col">
+                <h3>Departments</h3>
+                <ul class="footer-links">
+                    <li><a href="services.html">Cardiology</a></li>
+                    <li><a href="services.html">Pediatrics</a></li>
+                    <li><a href="services.html">Orthopedics</a></li>
+                    <li><a href="services.html">General Medicine</a></li>
+                    <li><a href="services.html">Diagnostic Lab</a></li>
+                    <li><a href="services.html">Dermatology</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-col">
+                <h3>Contact & Hours</h3>
+                <div class="footer-contact-info">
+                    <p>📍 Poojitha Medisphere, Main Road, Andhra Pradesh, India</p>
+                    <p>📞 +91 98765 43210</p>
+                    <p>✉️ info@poojithamedisphere.com</p>
+                    <p>🕐 Mon - Sat: 8:00 AM - 9:00 PM</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <p>© 2026 Poojitha Medisphere. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Floating Action Button -->
+    <a href="https://wa.me/919876543210" target="_blank" rel="noopener noreferrer" class="floating-action-btn" title="Chat on WhatsApp" aria-label="WhatsApp Contact">
+        💬
+    </a>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
